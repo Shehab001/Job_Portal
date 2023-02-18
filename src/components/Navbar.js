@@ -144,9 +144,9 @@ function DrawerAppBar(props) {
       </ToggleButtonGroup>
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
-        <Typography>
+        {/* <Typography>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-        </Typography>
+        </Typography> */}
       </Box>
     </Box>
   );
