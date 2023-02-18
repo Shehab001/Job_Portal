@@ -10,7 +10,7 @@ import CardMedia from "@mui/material/CardMedia";
 const TopCompany = () => {
   return (
     <>
-      <Container>
+      <Container sx={{ mb: 10 }}>
         <Box>
           <Typography
             sx={{

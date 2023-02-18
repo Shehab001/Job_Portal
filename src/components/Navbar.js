@@ -20,7 +20,7 @@ import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Contact Us"];
-const link = ["home", "about", "ContactUs"];
+const link = ["home", "about", "contactus"];
 
 function DrawerAppBar(props) {
   let x = 0;
@@ -94,9 +94,12 @@ function DrawerAppBar(props) {
                 </Link>
               </Button>
             ))}
-
-            <Button sx={{ color: "#fff", marginRight: 27 }}>Sign In</Button>
-            {/* <Button sx={{ color: "#fff" }}>Sign Up</Button> */}
+            <Link to="signup" style={{ color: "#fff", marginRight: 220 }}>
+              Sign Up
+            </Link>
+            <Link to="signin" style={{ color: "#fff", marginRight: 220 }}>
+              Sign In
+            </Link>
           </Box>
         </Toolbar>
       </AppBar>
