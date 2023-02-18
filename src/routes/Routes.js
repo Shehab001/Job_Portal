@@ -1,7 +1,7 @@
-import { createBrowserRouter, Link } from "react-router-dom";
-import Navbar from "../components/Navbar";
+import { createBrowserRouter } from "react-router-dom";
+
 import Main from "../pages/Main";
-import TopCompany from "../components/TopCompany";
+
 import SignIn from "../components/SignIn";
 import SignUp from "../components/SignUp";
 import Home from "../components/Home";
